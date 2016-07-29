@@ -17,7 +17,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-""" 
+"""
 
 class PrintableObject(object):
     """The parent class for all objects in VOTE.
@@ -36,6 +36,7 @@ class PrintableObject(object):
             instance variable names, and instance variable parameters.
         """
         result = "{0}:\n".format(self.__class__.__name__)
-        for variable in self.__dict__.keys():
-            result += "\t{0}: {1}\n".format(variable, self.__dict__[variable])
+        for variable in sorted(self.__dict__.keys()):
+            result += "\t{0}: {1}\n".format(variable,
+                str(self.__dict__[variable]))
         return result

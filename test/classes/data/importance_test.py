@@ -21,7 +21,7 @@
 
 import unittest
 
-from src.constants import importance
+from src.classes.data import importance
 
 class ImportanceTest(unittest.TestCase):
     """ Test suite for importance."""
@@ -65,3 +65,11 @@ class ImportanceTest(unittest.TestCase):
         """Test the greater than or equal to function for importance"""
         self.assertGreaterEqual(importance.A, importance.B)
         self.assertGreaterEqual(importance.A, importance.A)
+
+    def test_most_important(self):
+        """Test the greater than function for importance"""
+        self.assertTrue(importance.A.most_important())
+        self.assertFalse(importance.B.most_important())
+        self.assertFalse(importance.C.most_important())
+        self.assertFalse(importance.D.most_important())
+        self.assertFalse(importance.Z.most_important())

@@ -1,0 +1,90 @@
+{
+    "_type" : "StrategyEntry",
+    "name" : "Popular Decision",
+    "rank" : 0,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Inconsistent Constituency",
+    "rank" : 1,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Non-partisan Decision",
+    "rank" : 2,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Not Constitutional",
+    "rank" : 3,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Unimportant Bill",
+    "rank" : 4,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Balance the Books",
+    "rank" : 5,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Best for the Country",
+    "rank" : 6,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Change of Heart",
+    "rank" : 7,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Inoculation",
+    "rank" : 8,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Could Not Pass",
+    "rank" : 9,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Minimize Adverse Effects",
+    "rank" : 10,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Not Good Enough",
+    "rank" : 11,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Simple Consensus",
+    "rank" : 15,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Simple Majority",
+    "rank" : 16,
+    "active" : true
+}
+{
+    "_type" : "StrategyEntry",
+    "name" : "Normative Decision",
+    "rank" : 17,
+    "active" : true
+}
